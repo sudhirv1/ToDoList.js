@@ -1,0 +1,11 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore any compiled or bundled JS files
+*.js
+
+# Ignore any minified CSS files
+*.css
+
+# Ignore any generated HTML files
+*.html
