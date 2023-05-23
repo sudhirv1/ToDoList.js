@@ -1,0 +1,104 @@
+html, body {
+    background-color: rgb(25, 135, 137);
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#pageName{
+        color:#fff
+}
+.header {
+    
+    padding-top: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    padding-bottom: 10%;
+}
+
+.container{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+    /* //padding-top: 50px;
+    //width : 400px; */
+}
+.seperate{
+    color:rgb(21, 22, 22);
+    padding-bottom: 10px;
+}
+#inputField{
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: normal;
+    border: 1px solid rgb(137, 151, 155);
+    transition: border-color 150ms ease-in-out 0s;
+    outline: none;
+    color: rgb(33, 49, 60);
+    background-color: rgb(255, 255, 255);
+    padding-right: 12px;
+    :hover{
+        box-shadow: rgb(231 238 236) 0px 0px 0px 3px;
+    }
+}
+
+#addToDo{
+    margin-left: 10px;
+    color: white;
+    font-family: monospace;
+    height:50px;
+    width: 70px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 20px;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+}
+
+.to-dos{
+    justify-content: center;
+    margin-top: 15px;
+} 
+
+.paragraphStyling{
+    margin: 10;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.delete-button {
+    margin-left: 20px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    /* padding: 14px 24px; */
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
