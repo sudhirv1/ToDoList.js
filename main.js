@@ -37,7 +37,29 @@ function addItemToList(){
             delButton.style.display = "none";
         }
     });
-    
+
+
+    // Make the API call
+    var data = {
+        content: text.innerText
+    };
+
+    fetch('/api/post', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+    })
+        .then(response => response.json())
+        .then(result => {
+            // Handle the response data
+            console.log(result);
+        })
+        .catch(error => {
+            // Handle any errors
+            console.error('Error:', error);
+        });
 }
 
 inputField.addEventListener('keydown', function(event){
@@ -56,4 +78,3 @@ addToDoButton.addEventListener('click', function(){
         //Add an icon on the home page that leads to an index of lists made
             //Maintain a link to the front page that is an empty list
     //TODO: Add a nice background
-    //TODO: Fix Git Branch  
