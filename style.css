@@ -3,7 +3,7 @@ html, body {
     width: auto;
     height: auto;
     margin: 0 auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 }
 #pageName{
         color:#fff
@@ -67,12 +67,14 @@ html, body {
     border: 1px solid black;
     vertical-align: middle;
     font-size: 20px;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
 }
 
 .to-dos{
     justify-content: center;
     margin-top: 15px;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
 } 
 
 .paragraphStyling{
